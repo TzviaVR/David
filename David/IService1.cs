@@ -14,8 +14,7 @@ namespace David
     {
 
         [OperationContract]
-        string GetData(int value);
-
+        string SayHello(string Name);
         [OperationContract]
         CompositeType GetDataUsingDataContract(CompositeType composite);
 
